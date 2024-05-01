@@ -80,7 +80,7 @@ model = AutoModelForSequenceClassification.from_pretrained("ImranzamanML/GEFS-la
   
   **Company**: [Theum AG](https://theum.com/en/index.htm?t=) 
   
-  **Role**: Machine Learning Engineer 
+  **Role**: Lead Machine Learning Engineer 
 
   **Professional Links**:
   - Kaggle: [Profile](https://www.kaggle.com/muhammadimran112233)
