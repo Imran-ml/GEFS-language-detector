@@ -77,7 +77,9 @@ model = AutoModelForSequenceClassification.from_pretrained("ImranzamanML/GEFS-la
 ## About Author
 
   **Name**: Muhammad Imran Zaman 
+  
   **Company**: [Theum AG](https://theum.com/en/index.htm?t=) 
+  
   **Role**: Machine Learning Engineer 
 
   **Professional Links**:
