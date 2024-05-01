@@ -10,26 +10,6 @@ This is a fined tuned model by using the dataset of papluca [Language Identifica
 ## 100K downloads of the LLM model
 ![image](https://github.com/Imran-ml/GEFS-language-detector/assets/149146155/7318e8c3-a672-4b71-9b17-d9be7f0cfbd4)
 
-
-## Predicted output:
-
-Model will return the language detection in the language codes like: 
-```
-  - de as German
-  - en as English
-  - fr as French
-  - es as Spanish
-```
-  
-## Supported languages
-Currently this model support 4 languages but in future more languages will be added. 
-
-Following languages supported by the model:
-- German (de)
-- English (en)
-- French (fr)
-- Spanish (es)
-
 ## Use a pipeline as a high-level helper
 
 ```python
@@ -53,6 +33,26 @@ tokenizer = AutoTokenizer.from_pretrained("ImranzamanML/GEFS-language-detector")
 model = AutoModelForSequenceClassification.from_pretrained("ImranzamanML/GEFS-language-detector")
 
 ```
+
+## Predicted output:
+
+Model will return the language detection in the language codes like: 
+```
+  - de as German
+  - en as English
+  - fr as French
+  - es as Spanish
+```
+  
+## Supported languages
+Currently this model support 4 languages but in future more languages will be added. 
+
+Following languages supported by the model:
+- German (de)
+- English (en)
+- French (fr)
+- Spanish (es)
+
 
 ## Model Training
   
