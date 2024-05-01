@@ -1,7 +1,7 @@
 # GEFS-language-detector
 ### Download the model weights from the Hugging Face
 https://huggingface.co/ImranzamanML/GEFS-language-detector
-## Load model directly
+## Load model directly from Hugging Face using Transformers
 
 ```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
