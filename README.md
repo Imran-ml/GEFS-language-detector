@@ -27,10 +27,10 @@ Following languages supported by the model:
 - French (fr)
 - Spanish (es)
 
-# Download the model weights from the Hugging Face
+## Download the model weights from the Hugging Face
 https://huggingface.co/ImranzamanML/GEFS-language-detector
 
-# Use a pipeline as a high-level helper
+## Use a pipeline as a high-level helper
 
 ```python
 from transformers import pipeline
@@ -44,7 +44,7 @@ lang_detect=pipe(text, top_k=1)
 print("The detected language is", lang_detect)
 ```
 
-# Load model directly
+## Load model directly
 
 ```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
