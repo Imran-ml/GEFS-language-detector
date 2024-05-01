@@ -1,7 +1,15 @@
 # GEFS-language-detector
-## Download the model weights from the Hugging Face
+### Download the model weights from the Hugging Face
 https://huggingface.co/ImranzamanML/GEFS-language-detector
+## Load model directly
 
+```python
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+tokenizer = AutoTokenizer.from_pretrained("ImranzamanML/GEFS-language-detector")
+model = AutoModelForSequenceClassification.from_pretrained("ImranzamanML/GEFS-language-detector")
+
+```
 ### German, English, French and Spanish Language Detector
 
 The GEFS-language-detector model outperformed by achieving an impressive F1 score close to 100%. This result significantly exceeds typical benchmarks and underscores the model's accuracy and reliability in identifying languages.
@@ -24,15 +32,7 @@ lang_detect=pipe(text, top_k=1)
 print("The detected language is", lang_detect)
 ```
 
-## Load model directly
 
-```python
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
-
-tokenizer = AutoTokenizer.from_pretrained("ImranzamanML/GEFS-language-detector")
-model = AutoModelForSequenceClassification.from_pretrained("ImranzamanML/GEFS-language-detector")
-
-```
 
 ## Predicted output:
 
