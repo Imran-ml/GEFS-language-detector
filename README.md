@@ -4,7 +4,7 @@
 The GEFS-language-detector model outperformed by achieving an impressive F1 score close to 100%. This result significantly exceeds typical benchmarks and underscores the model's accuracy and reliability in identifying languages.
 This is a fined tuned model by using the dataset of papluca [Language Identification](https://huggingface.co/datasets/papluca/language-identification#additional-information) and the base model [xlm-roberta-base](https://huggingface.co/xlm-roberta-base) .
 
-##100K downloads of the LLM model
+## 100K downloads of the LLM model
 https://huggingface.co/ImranzamanML/GEFS-language-detector
 ![image](https://github.com/Imran-ml/GEFS-language-detector/assets/149146155/7318e8c3-a672-4b71-9b17-d9be7f0cfbd4)
 
