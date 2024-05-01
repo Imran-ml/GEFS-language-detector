@@ -1,4 +1,5 @@
 # GEFS-language-detector
+https://huggingface.co/ImranzamanML/GEFS-language-detector
 ### German, English, French and Spanish Language Detector
 
 The GEFS-language-detector model outperformed by achieving an impressive F1 score close to 100%. This result significantly exceeds typical benchmarks and underscores the model's accuracy and reliability in identifying languages.
