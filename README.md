@@ -1,4 +1,7 @@
 # GEFS-language-detector
+## Download the model weights from the Hugging Face
+https://huggingface.co/ImranzamanML/GEFS-language-detector
+
 ### German, English, French and Spanish Language Detector
 
 The GEFS-language-detector model outperformed by achieving an impressive F1 score close to 100%. This result significantly exceeds typical benchmarks and underscores the model's accuracy and reliability in identifying languages.
@@ -26,9 +29,6 @@ Following languages supported by the model:
 - English (en)
 - French (fr)
 - Spanish (es)
-
-## Download the model weights from the Hugging Face
-https://huggingface.co/ImranzamanML/GEFS-language-detector
 
 ## Use a pipeline as a high-level helper
 
